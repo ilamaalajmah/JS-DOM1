@@ -1,12 +1,16 @@
-document.querySelector('.title').style.color = 'white';
-document.querySelector('.title').style.backgroundColor = 'blue';
+let t=document.querySelector('.title');
+t.style.color = 'white';
+t.style.backgroundColor = 'blue';
 
 
-document.getElementById('paragraph').style.fontWeight = 'bold';
-document.getElementById('paragraph').classList.add('paragraph-style');
+
+let p = document.getElementById('paragraph')
+p.style.fontWeight = 'bold';
+p.classList.add('paragraph-style');
 
 
 document.querySelector('img').src = 'img1.png';
+
 
 
 const ul = document.querySelector('#list');
@@ -32,5 +36,4 @@ for (let row = 0; row < 2; row++) {
     }
     table.appendChild(tr);
 }
-
 tableContainer.appendChild(table);
